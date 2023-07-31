@@ -1,7 +1,7 @@
 {
   "name": "dom-goblin",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build status]",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
@@ -9,8 +9,16 @@
     "lint": "eslint .",
     "build": "webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S1owPock/dom-goblin.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S1owPock/dom-goblin/issues"
+  },
+  "homepage": "https://github.com/S1owPock/dom-goblin#readme",
   "devDependencies": {
     "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
